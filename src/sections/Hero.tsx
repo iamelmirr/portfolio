@@ -64,7 +64,7 @@ export const HeroSection = () => {
 
         </div>
         <div className='max-w-lg mx-auto'>  
-          <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Elmir Beširović</h1>
+          <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Elmir Besirovic</h1>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide'>Software Developer</h1>
           <p className='mt-4 text-center text-white md:text-lg'>
             I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.
