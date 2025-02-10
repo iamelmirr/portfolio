@@ -17,7 +17,7 @@ const footerLinks = [
   },
   {
     title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/elmir-be%C5%A1irovi%C4%87-502472320/'
+    href: 'https://www.linkedin.com/in/elmir-besirovic/'
   },
 ]
 
