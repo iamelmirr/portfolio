@@ -65,9 +65,9 @@ export const HeroSection = () => {
         </div>
         <div className='max-w-lg mx-auto'>  
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Elmir Besirovic</h1>
-          <h1 className='font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide'>IT Professional</h1>
+          <h1 className='font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide'>IT Developer</h1>
           <p className='mt-4 text-center text-white md:text-lg'>
-            I specialize in a wide range of IT solutions, from web and mobile development to backend services and blockchain technologies. Let&apos;s discuss your next project.
+            I have experience working with various IT technologies, including web and mobile development, backend services, and blockchain. Let&apos;s discuss your next project.
           </p>
           </div>
 

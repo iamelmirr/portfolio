@@ -68,7 +68,7 @@ const portfolioProjects = [
       { title: "E-commerce features implementation" },
       { title: "Completed for client, functional but basic" },
     ],
-    githubLink: "https://github.com/iamelmirr/nutrilux-webshop",
+    githubLink: "https://github.com/iamelmirr/nutrilux-mvp/tree/preerrors",
     image: nutriluxImage,
   },
   {
@@ -80,7 +80,7 @@ const portfolioProjects = [
       { title: "Tailored for neurodiverse users" },
       { title: "Ongoing project, prototype stage" },
     ],
-    githubLink: "https://github.com/iamelmirr/neurodiversity-customizer",
+    githubLink: "https://github.com/iamelmirr/neurodiversity-customizer-simple-version",
     image: githubImage,
   },
   {
@@ -92,7 +92,7 @@ const portfolioProjects = [
       { title: "Web3 integration features" },
       { title: "In progress, basic implementations" },
     ],
-    githubLink: "https://github.com/iamelmirr/web3-smart-contracts",
+    githubLink: "https://github.com/iamelmirr/",
     image: githubImage,
   },
 ];
@@ -107,10 +107,10 @@ export const ProjectsSection = () => {
       />
       
       
-      <div className="flex flex-col mt-10 md:mt-20 gap-20">
+      <div className="flex flex-col mt-10 md:mt-20 gap-12">
         {portfolioProjects.map((project, projectIndex) => (
           <Card className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky top-16" key={project.title} style={{
-            top: `calc(64px + ${projectIndex * 40}px)`
+            top: `calc(64px + ${projectIndex * 20}px)`
           }}>
 
             <div className="lg:grid lg:grid-cols-2 lg:gap-16">

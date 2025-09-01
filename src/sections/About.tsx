@@ -2,7 +2,6 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import StarIcon from "@/assets/icons/star.svg"
-import bookImage from "@/assets/images/book-cover.png"
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg"
 import HTMLIcon from "@/assets/icons/html5.svg"
@@ -150,13 +149,7 @@ export const AboutSection = () => {
 
     <div className="mt-20 flex flex-col gap-8">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
-      <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-        <CardHeader title="My Reads" description="Explore the books shaping my perspectives." />
-        <div className="w-40 mx-auto mt-2 md:mt-0">
-        <Image src={bookImage} alt="Book cover" />
-        </div>
-      </Card>
-      <Card className="h-[320px] md:col-span-3 lg:col-span-2">
+      <Card className="h-[320px] md:col-span-5 lg:col-span-3">
       <CardHeader className="" title="My Toolbox" description="Explore the technologies and tools I use to craft exceptional digital experiences." />
         
         <ToolboxItems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:30s]"/>
