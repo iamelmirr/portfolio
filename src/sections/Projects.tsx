@@ -3,6 +3,7 @@ import shelfieImage from "@/assets/images/shelfie-project.png"
 import caffiendImage from "@/assets/images/caffiendproject.png"
 import nutriluxImage from "@/assets/images/nutrilux-project.png"
 import githubImage from "@/assets/images/github-image.png"
+import osijekKhutbahImage from "@/assets/images/osijekhutbaproject.png"
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -22,6 +23,18 @@ const portfolioProjects = [
     ],
     link: "https://language1ab.netlify.app/",
     image: languageLabImage,
+  },
+  {
+    company: "Community",
+    year: "2025",
+    title: "Osijek Khutbah Live Translator",
+    results: [
+      { title: "Live khutbah translation for attendees" },
+      { title: "React UI with real-time Supabase sync" },
+      { title: "OpenAI-powered multi-language translations" },
+    ],
+    link: "https://osijekhutba.vercel.app",
+    image: osijekKhutbahImage,
   },
   {
     company: "Personal",
