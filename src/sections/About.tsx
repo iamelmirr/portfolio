@@ -14,6 +14,7 @@ import NextJsIcon from "@/assets/icons/next-dot-js-svgrepo-com.svg"
 import FlutterIcon from "@/assets/icons/flutter-svgrepo-com.svg"
 import SupabaseIcon from "@/assets/icons/supabase-icon.svg"
 import SolidityIcon from "@/assets/icons/solidity-svgrepo-com.svg"
+import SqlIcon from "@/assets/icons/sql-database-generic-svgrepo-com.svg"
 import { TechIcon } from "@/components/TechIcon";
 import mapImage from "@/assets/images/map.png"
 import smileEmoji from "@/assets/images/memoji-smile.png"
@@ -63,6 +64,10 @@ const toolboxItems = [
   {
     title: 'Supabase',
     iconType: SupabaseIcon,
+  },
+  {
+    title: 'SQL',
+    iconType: SqlIcon,
   },
   {
     title: 'Solidity',

@@ -4,6 +4,7 @@ import caffiendImage from "@/assets/images/caffiendproject.png"
 import nutriluxImage from "@/assets/images/nutrilux-project.png"
 import githubImage from "@/assets/images/github-image.png"
 import osijekKhutbahImage from "@/assets/images/osijekhutbaproject.png"
+import bosniaAirImage from "@/assets/images/bosniaairproject.png"
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -35,6 +36,18 @@ const portfolioProjects = [
     ],
     link: "https://osijekhutba.vercel.app",
     image: osijekKhutbahImage,
+  },
+  {
+    company: "Personal",
+    year: "2025",
+    title: "BosniaAir - Air Quality Monitor",
+    results: [
+      { title: "Real-time air quality monitoring for Bosnia" },
+      { title: ".NET 8 API with Next.js frontend" },
+      { title: "Multi-city AQI tracking and health recommendations" },
+    ],
+    link: "https://bosniaair.vercel.app",
+    image: bosniaAirImage,
   },
   {
     company: "Personal",
@@ -94,18 +107,6 @@ const portfolioProjects = [
       { title: "Ongoing project, prototype stage" },
     ],
     githubLink: "https://github.com/iamelmirr/neurodiversity-customizer-simple-version",
-    image: githubImage,
-  },
-  {
-    company: "Personal",
-    year: "2024",
-    title: "Web3 Smart Contracts",
-    results: [
-      { title: "Solidity smart contract development" },
-      { title: "Web3 integration features" },
-      { title: "In progress, basic implementations" },
-    ],
-    githubLink: "https://github.com/iamelmirr/",
     image: githubImage,
   },
 ];
