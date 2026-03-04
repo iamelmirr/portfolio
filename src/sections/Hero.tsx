@@ -67,7 +67,7 @@ export const HeroSection = () => {
                               <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Elmir Besirovic</h1>
                               <h1 className='font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide'>Full-Stack Developer & Co-Owner</h1>
                               <p className='mt-4 text-center text-white md:text-lg'>
-                                    Co-owner & Head of Development at <a href="https://www.adastra-digital.agency" target="_blank" className="text-emerald-300 hover:text-emerald-200 transition">Adastra Digital</a>. I build modern web apps, e-commerce platforms, and AI-powered solutions for clients across Europe.
+                                    Co-owner at <a href="https://www.adastra-digital.agency" target="_blank" className="text-emerald-300 hover:text-emerald-200 transition">Adastra Digital</a>. I build modern web apps, e-commerce platforms, and AI-powered solutions for clients across Europe.
                               </p>
                         </div>
 
