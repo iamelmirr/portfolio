@@ -5,6 +5,7 @@ import medzlisImage from "@/assets/images/medzlis-project.png"
 import nutriluxImage from "@/assets/images/nutrilux-new-project.png"
 import languageLabImage from "@/assets/images/language-lab-project.png"
 import osijekKhutbahImage from "@/assets/images/osijekhutbaproject.png"
+import retreatImage from "@/assets/images/20dayretreat-project.png"
 
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -85,6 +86,18 @@ const portfolioProjects = [
     ],
     link: "https://language1ab.netlify.app/",
     image: languageLabImage,
+  },
+  {
+    company: "Adastra Digital",
+    year: "2025",
+    title: "20 Day Retreat — Programme Website",
+    results: [
+      { title: "Full-stack Next.js app with Stripe payments & applications" },
+      { title: "Admin panel for content, applicants, and testimonials" },
+      { title: "Dark editorial design with parallax hero and animated reveals" },
+    ],
+    link: "https://20dayretreat.com",
+    image: retreatImage,
   },
   {
     company: "Community",
