@@ -44,12 +44,16 @@ const toolboxItems = [
     iconType: NextJsIcon,
   },
   {
-    title: 'Tailwind CSS',
-    iconType: TailwindIcon,
+    title: 'React Native',
+    iconType: ReactIcon,
   },
   {
     title: 'Node.js',
     iconType: NodeJsIcon,
+  },
+  {
+    title: 'Tailwind CSS',
+    iconType: TailwindIcon,
   },
   {
     title: 'Python',

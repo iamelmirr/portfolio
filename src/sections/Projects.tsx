@@ -6,6 +6,9 @@ import nutriluxImage from "@/assets/images/nutrilux-new-project.png"
 import languageLabImage from "@/assets/images/language-lab-project.png"
 import osijekKhutbahImage from "@/assets/images/osijekhutbaproject.png"
 import retreatImage from "@/assets/images/20dayretreat-project.png"
+import trendhoundImage from "@/assets/images/trendhound-project.png"
+import faithImage from "@/assets/images/faith-project.png"
+import aiPhotoboothImage from "@/assets/images/aiphotobooth-project.png"
 
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -15,6 +18,42 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "TrendHound",
+    year: "2026",
+    title: "TrendHound — Algorithmic Trading Platform",
+    results: [
+      { title: "Real-time trading dashboard in Next.js & React with live WebSocket market data" },
+      { title: "No-code strategy builder with backtesting across 7 exchanges and 350+ pairs" },
+      { title: "Live order execution, P&L tracking, Stripe billing and 2FA" },
+    ],
+    link: "",
+    image: trendhoundImage,
+  },
+  {
+    company: "TrendHound",
+    year: "2026",
+    title: "Faith — Verified Stays Marketplace",
+    results: [
+      { title: "React Native (Expo) app + Next.js web for the Pakistani rental market" },
+      { title: "Node.js API with identity verification, trust scores and escrow bookings" },
+      { title: "Real-time safety layer: in-stay panic flow with live ops escalation" },
+    ],
+    link: "",
+    image: faithImage,
+  },
+  {
+    company: "Upanishad",
+    year: "2026",
+    title: "AI Photobooth — Event Kiosk Platform",
+    results: [
+      { title: "React kiosk UI with camera capture and 40+ AI transformation styles" },
+      { title: "Real-time generation pipeline with queues, retries and live progress" },
+      { title: "Fleet admin panel: analytics, remote access and OTA updates" },
+    ],
+    link: "",
+    image: aiPhotoboothImage,
+  },
   {
     company: "Adastra Digital",
     year: "2025",
@@ -148,12 +187,18 @@ export const ProjectsSection = () => {
                     </li>
                   ))}
                 </ul>
-                <a href={project.link} target="_blank">
-                  <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 hover:opacity-60 transition">
-                    <span>Visit Live Site</span>
-                    <ArrowUpRightIcon className="size-4" />
-                  </button>
-                </a>
+                {project.link ? (
+                  <a href={project.link} target="_blank">
+                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 hover:opacity-60 transition">
+                      <span>Visit Live Site</span>
+                      <ArrowUpRightIcon className="size-4" />
+                    </button>
+                  </a>
+                ) : (
+                  <div className="border border-white/15 text-white/70 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                    <span>Private Product</span>
+                  </div>
+                )}
               </div>
               <div className="relative">
                 <Image src={project.image} alt={project.title} className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none" />
