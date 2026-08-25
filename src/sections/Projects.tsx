@@ -21,7 +21,7 @@ const portfolioProjects = [
   {
     company: "TrendHound",
     year: "2026",
-    title: "TrendHound — Algorithmic Trading Platform",
+    title: "TrendHound Trading Platform",
     results: [
       { title: "Real-time trading dashboard in Next.js & React with live WebSocket market data" },
       { title: "No-code strategy builder with backtesting across 7 exchanges and 350+ pairs" },
@@ -33,7 +33,7 @@ const portfolioProjects = [
   {
     company: "TrendHound",
     year: "2026",
-    title: "Faith — Verified Stays Marketplace",
+    title: "Faith Booking Marketplace",
     results: [
       { title: "React Native (Expo) app + Next.js web for the Pakistani rental market" },
       { title: "Node.js API with identity verification, trust scores and escrow bookings" },
@@ -45,7 +45,7 @@ const portfolioProjects = [
   {
     company: "Upanishad",
     year: "2026",
-    title: "AI Photobooth — Event Kiosk Platform",
+    title: "AI Photobooth Kiosk Platform",
     results: [
       { title: "React kiosk UI with camera capture and 40+ AI transformation styles" },
       { title: "Real-time generation pipeline with queues, retries and live progress" },
@@ -57,7 +57,7 @@ const portfolioProjects = [
   {
     company: "Adastra Digital",
     year: "2025",
-    title: "Adastra Digital — Agency Website",
+    title: "Adastra Digital Agency Website",
     results: [
       { title: "Premium web development & AI agency site" },
       { title: "Modern design with service showcase and portfolio" },
@@ -81,7 +81,7 @@ const portfolioProjects = [
   {
     company: "Adastra Digital",
     year: "2025",
-    title: "Prevoditelj.io — Court Translator",
+    title: "Prevoditelj.io Court Translator",
     results: [
       { title: "Professional business site for a certified translator" },
       { title: "Multilingual (DE/HR) with i18n routing" },
@@ -105,7 +105,7 @@ const portfolioProjects = [
   {
     company: "Adastra Digital",
     year: "2025",
-    title: "Nutrilux — Sports Nutrition E-Commerce",
+    title: "Nutrilux Sports Nutrition E-Commerce",
     results: [
       { title: "Premium e-commerce with cart and checkout" },
       { title: "Product showcase with ingredient science section" },
@@ -129,7 +129,7 @@ const portfolioProjects = [
   {
     company: "Adastra Digital",
     year: "2025",
-    title: "20 Day Retreat — Programme Website",
+    title: "20 Day Retreat Programme Website",
     results: [
       { title: "Full-stack Next.js app with Stripe payments & applications" },
       { title: "Admin panel for content, applicants, and testimonials" },

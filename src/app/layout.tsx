@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const calistoga = Calistoga({ subsets: ['latin'], variable: '--font-serif', weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: "Elmir Beširović — Full-Stack Developer & Co-Owner",
-  description: "Portfolio of Elmir Beširović — Co-owner & Head of Development at Adastra Digital. Building modern web apps, e-commerce platforms, and AI-powered solutions.",
+  title: "Elmir Beširović | Full-Stack Developer & Co-Owner",
+  description: "Portfolio of Elmir Beširović, Co-owner & Head of Development at Adastra Digital. Building modern web apps, e-commerce platforms, and AI-powered solutions.",
 };
 
 export default function RootLayout({

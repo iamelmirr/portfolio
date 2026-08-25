@@ -67,7 +67,7 @@ export const HeroSection = () => {
                               <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Elmir Besirovic</h1>
                               <h1 className='font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide'>Full-Stack Developer & Co-Owner</h1>
                               <p className='mt-4 text-center text-white md:text-lg'>
-                                    Co-owner at <a href="https://www.adastra-digital.agency" target="_blank" className="text-emerald-300 hover:text-emerald-200 transition">Adastra Digital</a>. I build web and mobile apps with React, Next.js, React Native and Node.js — from trading platforms and marketplaces to AI-powered products.
+                                    Co-owner at <a href="https://www.adastra-digital.agency" target="_blank" className="text-emerald-300 hover:text-emerald-200 transition">Adastra Digital</a>. I build web and mobile apps with React, Next.js, React Native and Node.js, from trading platforms and marketplaces to AI-powered products.
                               </p>
                         </div>
 
